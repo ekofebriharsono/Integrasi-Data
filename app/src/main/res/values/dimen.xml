@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_nano">2dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+    <dimen name="spacing_xlarge">48dp</dimen>
+    <dimen name="spacing_xxlarge">56dp</dimen>
+    <dimen name="spacing_huge">64dp</dimen>
+    <dimen name="spacing_xhuge">96dp</dimen>
+    <dimen name="padding_micro">12dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="divider_height">2px</dimen>
+    <dimen name="divider_margin_72">72dp</dimen>
+    <dimen name="divider_margin_80">80dp</dimen>
+    <dimen name="divider_margin_88">88dp</dimen>
+    <dimen name="dialog_corners">2dp</dimen>
+    <dimen name="keyboard_height">230dip</dimen>
+    <dimen name="custom_tab_layout_height">64dp</dimen>
+    <dimen name="sticker_tab_layout_height">42dp</dimen>
+
+    <!-- Cards -->
+    <dimen name="card_corner_radius">3dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+
+    <dimen name="drag_dismiss_distance">140dp</dimen>
+
+    <!-- Text Size -->
+    <dimen name="text_12sp">12sp</dimen>
+    <dimen name="text_14sp">14sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_18sp">18sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+    <dimen name="text_24sp">24sp</dimen>
+    <dimen name="text_34sp">34sp</dimen>
+    <dimen name="text_45sp">45sp</dimen>
+    <dimen name="text_56sp">56sp</dimen>
+    <dimen name="text_112sp">112sp</dimen>
+</resources>

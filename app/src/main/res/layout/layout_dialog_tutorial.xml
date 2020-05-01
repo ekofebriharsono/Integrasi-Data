@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bantuan"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:drawableEnd="@drawable/ic_more_vert"
+        android:gravity="center"
+        android:text="1. Tekan tombol "
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:gravity="center"
+        android:text="2. Pilih menu cari "
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:drawableEnd="@drawable/ic_create"
+        android:gravity="center"
+        android:text="3. Masukkan kata kunci "
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:gravity="center"
+        android:text="4. Dan tekan tombol cari "
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/mengerti"
+        android:layout_width="97dp"
+        android:layout_height="45dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="20sp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Mengerti"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

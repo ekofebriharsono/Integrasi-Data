@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filter Harga"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:gravity="center"
+        android:text="Masukkan harga sesuai keinginan anda :"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:hint="Rp. 1.000.000"
+        android:inputType="numberSigned"
+        android:maxLength="8"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/simpan"
+        android:layout_width="97dp"
+        android:layout_height="45dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="20sp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Simpan"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

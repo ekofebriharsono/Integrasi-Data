@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.root.uasinta.ScrollingActivity">
+
+    <item
+        android:id="@+id/action_favorite"
+        android:orderInCategory="100"
+        android:title="Favorit"
+        android:icon="@drawable/ic_star_border"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="200"
+        android:title="Bantuan"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cari"
+        android:orderInCategory="300"
+        android:title="Cari"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="400"
+        android:title="Tentang"
+        app:showAsAction="never" />
+</menu>

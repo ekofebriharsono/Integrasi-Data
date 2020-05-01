@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cari Barang"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/EDcari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:drawableEnd="@drawable/ic_create"
+        android:drawablePadding="4dp"
+        android:maxLines="1"
+        android:lines="1"
+        android:inputType="textShortMessage"
+        android:maxLength="20"
+        android:hint="Cari"/>
+
+    <Button
+        android:id="@+id/btnCari"
+        android:layout_width="76dp"
+        android:layout_height="38dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:drawableEnd="@drawable/ic_send_white"
+        android:padding="4dp"
+        android:text="cari"
+        android:textColor="@color/white" />
+
+</LinearLayout>
